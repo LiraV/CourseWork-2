@@ -19,8 +19,7 @@ async function getResponce() {
         <img style="width: 180px" class="align-self-center" src=${content[key].iamge}>
         <h5 class="card-title">${content[key].title}</h5>
         <p class="card-text">${content[key].description}.</p>
-        </li>
-                `
+        </li>       `
     }
 }
 getResponce()
