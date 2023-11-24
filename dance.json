@@ -9,19 +9,19 @@
     "id": "2",
     "title": "ProТанцы",
     "description": "Описание",
-    "image": "img/mdc.jpeg"
+    "image": "img/proTancy.jpg"
   },
     {
     "id": "3",
     "title": "9 Залов",
     "description": "Описание",
-    "image": "img/mdc.jpeg"
+    "image": "img/zalov9.jpg"
   },
   {
     "id": "4",
     "title": "DaDaDance",
     "description": "Описание",
-    "image": "img/mdc.jpeg"
+    "image": "img/daDa.webp"
   }
   
 ]
