@@ -6,9 +6,21 @@
     "image": "img/mdc.jpeg"
   },
   {
-    "id": "1",
-    "title": "MDC",
+    "id": "2",
+    "title": "ProТанцы",
     "description": "Описание",
     "image": "img/mdc.jpeg"
-  }
+  },
+    {
+    "id": "3",
+    "title": "9 Залов",
+    "description": "Описание",
+    "image": "img/mdc.jpeg"
+  },
+  {
+    "id": "4",
+    "title": "DaDaDance",
+    "description": "Описание",
+    "image": "img/mdc.jpeg"
+  },
 ]
