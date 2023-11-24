@@ -6,7 +6,7 @@
 .menu{
     display: flex;
     justify-content:space-between; 
-    background: rgb(139, 111, 67);
+    background: #FFA07A;
     padding: 50px;
 }
 
@@ -92,32 +92,4 @@ table{
 }
 td{
     padding: 10px;
-}
-.pes{
-    padding-right: 100px;
-}
-
-.text_kfu{
-    display: flex;
-    flex-direction: row;
-}
-
-.img_port{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-.f_text{
-    display:flex;
-    flex-direction: row;
-}
-
-.s_text{
-    display: flex;
-    flex-direction: row;
-    jusify-content: center;
-}
-.txt{
-    width: 500px;
 }
