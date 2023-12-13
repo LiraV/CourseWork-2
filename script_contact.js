@@ -1,4 +1,5 @@
 okayElement = document.querySelector('.okay');
+sendElement = document.querySelector('.send');
 let date_n = '2000-01-01';
 let number_n = '1';
 let face = 'fiz';
@@ -33,6 +34,14 @@ function save() {
     for (var i = 0; i < invest.length; i++) {
         str = str + invest[i] + ' ';
     }
-    inv.innerText = str;
+
+    document.getElementsByName('date_n')[0].value = date_n;
+    document.getElementsByName('number_n')[0].value = number_n;
+    document.getElementsByName('face')[0].value = face;
+    document.getElementsByName('invest')[0].value = invest;
+    document.getElementsByName('add')[0].value = add;
+    document.getElementsByName('pass')[0].value = pass;
+    document.getElementsByName('id')[0].value = id;
+    document.getElementById("UserEnter").submit();
 }
 okayElement.addEventListener('click', save);
