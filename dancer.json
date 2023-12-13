@@ -3,25 +3,25 @@
     "id": "1",
     "title": "Мигель",
     "description": "Описание",
-    "image": "img/mdc.jpeg"
+    "image": "img/migel.jpg"
   },
   {
     "id": "2",
     "title": "Юлиана Кобцева",
     "description": "Описание",
-    "image": "img/mdc.jpeg"
+    "image": "img/kobtseva.jpg"
   },
   {
     "id": "3",
     "title": "Ира Подшивалова",
     "description": "Описание",
-    "image": "img/mdc.jpeg"
+    "image": "img/shiva.jpg"
   },
   {
     "id": "4",
     "title": "Ксения Горячева",
     "description": "Описание",
-    "image": "img/mdc.jpeg"
+    "image": "img/ksenia.jpg"
   },
 ]
   
