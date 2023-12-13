@@ -21,31 +21,31 @@
     "id": "4",
     "title": "DaDaDance",
     "description": "Описание",
-    "image": "img/zalov9.jpg"
+    "image": "img/daDaDance.jpg"
   },
     {
     "id": "5",
     "title": "Sky Hall Dance",
     "description": "Описание",
-    "image": "img/zalov9.jpg"
+    "image": "img/skyHall.png"
   },
     {
     "id": "6",
     "title": "High Level Moscow",
     "description": "Описание",
-    "image": "img/zalov9.jpg"
+    "image": "img/highLevel.jpeg"
   },
     {
     "id": "7",
     "title": "Todes",
     "description": "Описание",
-    "image": "img/zalov9.jpg"
+    "image": "img/todes.jpg"
   },
     {
     "id": "8",
     "title": "Adornos Center",
     "description": "Описание",
-    "image": "img/zalov9.jpg"
+    "image": "img/adornos.png"
   },
     {
     "id": "9",
@@ -57,6 +57,6 @@
     "id": "10",
     "title": "Sofa Dance",
     "description": "Описание",
-    "image": "img/zalov9.jpg"
+    "image": "img/sofaDance.jpeg"
   }
 ]
