@@ -16,5 +16,47 @@
     "title": "9 Залов",
     "description": "Описание",
     "image": "img/zalov9.jpg"
+  },
+    {
+    "id": "4",
+    "title": "DaDaDance",
+    "description": "Описание",
+    "image": "img/zalov9.jpg"
+  },
+    {
+    "id": "5",
+    "title": "Sky Hall Dance",
+    "description": "Описание",
+    "image": "img/zalov9.jpg"
+  },
+    {
+    "id": "6",
+    "title": "High Level Moscow",
+    "description": "Описание",
+    "image": "img/zalov9.jpg"
+  },
+    {
+    "id": "7",
+    "title": "Todes",
+    "description": "Описание",
+    "image": "img/zalov9.jpg"
+  },
+    {
+    "id": "8",
+    "title": "Adornos Center",
+    "description": "Описание",
+    "image": "img/zalov9.jpg"
+  },
+    {
+    "id": "9",
+    "title": "Trix Family",
+    "description": "Описание",
+    "image": "img/zalov9.jpg"
+  },
+    {
+    "id": "10",
+    "title": "Sofa Dance",
+    "description": "Описание",
+    "image": "img/zalov9.jpg"
   }
 ]
