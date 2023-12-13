@@ -1,0 +1,28 @@
+     <main>
+        <p>Заполните форму для заявки на проведение SWOT-анализа</p>
+        <form>
+            <p>Дата дедлайна<input type="date" name="date_n" size=20 value="2023-11-14"></p>
+            <p>Количество компаний для анализа<input type="number" name="number_n" size="20" value="1"></p>
+            <p>Отметьте нужый вариант:
+                <input type="Radio" name="face" value="fiz" checked>Физическое лицо
+                <input type="Radio" name="face" value="jur">Юридическое лицо
+            </p>
+            <p>Какие анализы вам нужны:
+                <input type="Checkbox" name="invest"  id = 'pes' value="PESTEL">PESTEL
+                <input type="Checkbox"  name="invest"   value="5 сил Портера">5 сил Портера
+                <input type="Checkbox" name="invest" value="КФУ">КФУ
+                <input type="Checkbox" name="invest" value="SWOT" checked>SWOT(без подготовительных анализов)
+            </p>
+            <p><input type="password" name="pass" size="20" value="0000"></p>
+            <input type="hidden" name="id" value='000000'>
+        
+            <p>Примечания <input type="Text" name="add" size=100  value=""></p>
+
+        </form>
+        <button class="okay">Заказать</button>
+        <p>Вы заказали </p>
+        <p><span class="num"></span> анализ(-/а) <span class="inv"></span></p>
+     </main>         
+
+   </body>
+   <script src="func_feedback.js"></script>
