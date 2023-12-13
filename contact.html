@@ -2,43 +2,50 @@
 <html lang="ru">
    <head>
       <meta charset="UTF-8">
-      <title>CourseWork2</title>
+      <title>CourseWork</title>
       <link rel="stylesheet" href="styles.css">
    </head>
    <body>
-      <nav class="menu">
-         <h1><a href="index.html" target="_self" class="menu_text"></a></h1>
-         <a href="styles.html" target="_self" class="menu_text">Стили танца<br></a>
-         <a href="persons.html" target="_self" class="menu_text">Известные личности<br></a>
-         <a href="studios.html" target="_self" class="menu_text">Танцевальные студии<br></a>
-         <a href="contact.html" target="_self" class="menu_text" id="this">Контакты</a>
-      </nav> 
-<main>
+    <nav class="menu">
+        <h1><a href="index.html" target="_self" class="menu_text">SWOT-анализ</a></h1>
+        <a href="https://roistat.com/rublog/swot-analiz/" target="_blank" class="menu_text">Определение<br></a>
+        <a href="pestel.html" target="_self" class="menu_text">PESTEL<br></a>
+        <a href="porter.html" target="_self" class="menu_text">Пять сил Портера<br></a>
+        <a href="kfu.html" target="_self" class="menu_text">КФУ<br></a>
+        <a href="f_swot.html" target="_self" class="menu_text">Первичный SWOT<br></a>
+        <a href="s_swot.html" target="_self" class="menu_text">Вторичный SWOT<br></a>
+        <a href="s_swot.html#expl" target="_self" class="menu_text">Пример<br></a>
+        <a href="contact.html"><img src="img/56745.png" height="50" width="50"></a>
+        <a href="feedback.html" id="this_img"><img src="img/3888813.png" height="50" width="50"></a>
+     </nav> 
+     <main>
         <p>Заполните форму для заявки на проведение SWOT-анализа</p>
-        <form>
-            <p>Дата дедлайна<input type="date" name="date_n" size=20 value="2023-11-14"></p>
-            <p>Количество компаний для анализа<input type="number" name="number_n" size="20" value="1"></p>
-            <p>Отметьте нужый вариант:
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <ul>
+            <li> <input name="q" value="search"> </li>
+            <li>Дата дедлайна<input type="date" name="date_n" size=20 value="2023-11-14"></li>
+            <li>Количество компаний для анализа<input type="number" name="number_n" size="20" value="1"></li>
+            <li>Отметьте нужый вариант:
                 <input type="Radio" name="face" value="fiz" checked>Физическое лицо
                 <input type="Radio" name="face" value="jur">Юридическое лицо
-            </p>
-            <p>Какие анализы вам нужны:
+            </li>
+            <li>Какие анализы вам нужны:
                 <input type="Checkbox" name="invest"  id = 'pes' value="PESTEL">PESTEL
                 <input type="Checkbox"  name="invest"   value="5 сил Портера">5 сил Портера
                 <input type="Checkbox" name="invest" value="КФУ">КФУ
                 <input type="Checkbox" name="invest" value="SWOT" checked>SWOT(без подготовительных анализов)
-            </p>
-            <p><input type="password" name="pass" size="20" value="0000"></p>
+            </li>
+            <li><input type="password" name="pass" size="20" value="0000"></li>
             <input type="hidden" name="id" value='000000'>
         
-            <p>Примечания <input type="Text" name="add" size=100  value=""></p>
-
+            <li>Примечания <input type="Text" name="add" size=100  value=" "></li>
+            <li><button class="okay">Заказать</button></li>
+            <li><button class="send">Отправить</button></li>
+            </ul>
         </form>
-        <button class="okay">Заказать</button>
         <p>Вы заказали </p>
         <p><span class="num"></span> анализ(-/а) <span class="inv"></span></p>
      </main>         
-
+   <script src="script_contact.js"></script>
    </body>
-   <script src="script.js"></script>
 </html>
